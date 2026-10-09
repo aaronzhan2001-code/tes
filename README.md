@@ -1,8 +1,8 @@
-# CITY:LAB · 平行城市实验室
+# 平行城市实验室
 
 一座虚构的城市，一个可解释的模拟系统。调整交通、绿色建设、住房、教育和税率，观察 2040–2060 年的城市变化；从历史节点创建平行世界线，在相同外部事件下比较不同的选择。
 
-**[在线体验 v1.0.0](https://rawcdn.githack.com/aaronzhan2001-code/tes/v1.0.0/release/city-lab.html)** · **[下载发行版](https://github.com/aaronzhan2001-code/tes/releases/latest)**
+**[在线体验 v1.0.1](https://rawcdn.githack.com/aaronzhan2001-code/tes/v1.0.1/release/city-lab.html)** · **[下载发行版](https://github.com/aaronzhan2001-code/tes/releases/latest)**
 
 ## 功能
 
@@ -53,4 +53,4 @@ Vite 使用相对资源路径，也可将 `dist/` 部署到其他静态网站托
 
 React 19 / TypeScript / Vite / Lucide / Node Test Runner / Playwright。所有城市图形由 SVG 绘制，没有第三方图片或远程字体请求。
 
-Designed & built with Codex.
+由 Codex 设计与构建。

@@ -186,7 +186,7 @@ export default function CityMap({ snapshot }: { snapshot: Snapshot }) {
       <g transform="translate(565 387)" stroke="#859386" fill="none">
         <path d="M0 23V0l-5 8m5-8 5 8" />
         <text x="-4" y="-8" stroke="none" fill="#859386" fontSize="10">
-          N
+          北
         </text>
       </g>
     </svg>

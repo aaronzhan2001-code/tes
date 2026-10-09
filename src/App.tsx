@@ -214,17 +214,17 @@ export default function App() {
             e.preventDefault();
             switchView('dashboard');
           }}
-          aria-label="CITY:LAB 首页"
+          aria-label="平行城市实验室首页"
         >
           <span className="brand-mark">
             <Building2 size={22} />
           </span>
           <span>
-            CITY<span className="brand-colon">:</span>LAB<small>平行城市实验室</small>
+            平行城市<small>城市未来实验室</small>
           </span>
         </a>
         <div className="nav-heading">
-          探索工作台 <span>WORKSPACE</span>
+          探索工作台 <span>城市未来，从这里开始</span>
         </div>
         <nav aria-label="主导航">
           <button
@@ -297,7 +297,7 @@ export default function App() {
           <span className="avatar">C</span>
           <div>
             <strong>创意实验项目</strong>
-            <small>Built with Codex</small>
+            <small>由 Codex 构建</small>
           </div>
           <button className="icon-btn" aria-label="使用帮助" onClick={() => setModal('help')}>
             <CircleHelp size={18} />
@@ -378,7 +378,7 @@ export default function App() {
           <div className="page-heading">
             <div>
               <div className="eyebrow">
-                <span /> A SMALL CITY. INFINITE POSSIBILITIES.
+                <span /> 一座小城，无限可能。
               </div>
               <h1>
                 {view === 'dashboard'
@@ -397,7 +397,7 @@ export default function App() {
             </div>
             <div className="experiment-tag">
               <span className="pulse-dot" />
-              实验进行中 <span className="tag-divider">/</span> SEED {experiment.seed}
+              实验进行中 <span className="tag-divider">/</span> 实验种子 {experiment.seed}
             </div>
           </div>
           {view === 'dashboard' && (
@@ -439,7 +439,7 @@ export default function App() {
                     <div>
                       <h2>
                         <span className="tiny-square" />
-                        新岸市 <span className="muted-en">NEW SHORE</span>
+                        新岸市 <span className="muted-en">你的未来城市</span>
                       </h2>
                       <p>
                         <span className="world-color" style={{ background: active.color }} />
@@ -837,10 +837,10 @@ export default function App() {
                   <FlaskConical size={34} />
                 </span>
                 <div>
-                  <span className="eyebrow">OPEN MODEL · NO BLACK BOX</span>
+                  <span className="eyebrow">公开模型 · 规则透明</span>
                   <h2>一座小城，一个可解释的系统。</h2>
                   <p>
-                    这里没有隐藏的 AI
+                    这里没有隐藏的人工智能
                     预测。每次推演由公开的规则驱动，相同的种子、历史和政策，会得到相同的未来。它适合探索权衡与长期影响，不用于现实城市规划。
                   </p>
                 </div>
@@ -871,7 +871,7 @@ export default function App() {
                   <h3>04 / 数据留在你的设备</h3>
                   <p>
                     实验保存在浏览器本地。清除浏览器数据会删除实验，可导出 JSON
-                    文件备份或分享。无需登录，没有远程模型、账户或付费 API。
+                    文件备份或分享。无需登录，没有远程模型、账户或付费接口。
                   </p>
                   <div className="formula">本地自动保存 + JSON 导入 / 导出</div>
                 </section>
@@ -910,11 +910,11 @@ export default function App() {
           )}
           <footer className="page-footer">
             <span>
-              CITY:LAB <i />
+              平行城市实验室 <i />
               让可能性，被看见。
             </span>
             <span>
-              Designed & built with Codex <span className="footer-spark">✳</span>
+              由 Codex 设计与构建 <span className="footer-spark">✳</span>
             </span>
           </footer>
         </main>
